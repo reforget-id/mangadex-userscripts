@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name        MangaDex Forums : Remove Images Spam
+// @name        MangaDex Forums : Hide Images Spam
 // @namespace   mdex-forums-images-spam
 // @description Hide images spam in Mangadex Forums
-// @version     1.0.1
+// @version     1.0.2
 // @author      reforget-id
 // @icon        https://mangadex.org/favicon.svg
 // @homepage    https://github.com/reforget-id/mangadex-userscripts
 // @supportURL  https://github.com/reforget-id/mangadex-userscripts/issues
-// @downloadURL https://raw.githubusercontent.com/reforget-id/mangadex-userscripts/main/scripts/mdex-forums-images-spam.user.js
-// @updateURL   https://raw.githubusercontent.com/reforget-id/mangadex-userscripts/main/scripts/mdex-forums-images-spam.user.js
+// @downloadURL https://raw.githubusercontent.com/reforget-id/mangadex-userscripts/master/scripts/mdex-forums-images-spam.user.js
+// @updateURL   https://raw.githubusercontent.com/reforget-id/mangadex-userscripts/master/scripts/mdex-forums-images-spam.user.js
 // @match       https://forums.mangadex.org/threads/*
 // @license     MIT
 // @run-at      document-end
