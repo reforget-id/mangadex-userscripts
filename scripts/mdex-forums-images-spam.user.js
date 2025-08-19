@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        MangaDex Forums : Remove Images Spam
 // @namespace   mdex-forums-images-spam
-// @description Remove images spam in Mangadex Forums
+// @description Hide images spam in Mangadex Forums
 // @version     1.0.1
 // @author      reforget-id
 // @icon        https://mangadex.org/favicon.svg
@@ -31,6 +31,7 @@
         }
     `)
 
+    // Only select `.bbImageWrapper` that are not inside nested quotes/spoilers
     const bbImageSelector = 'div.bbImageWrapper:not(:is(:scope blockquote, :scope .bbCodeSpoiler) .bbImageWrapper)'
 
     const posts = document.querySelectorAll('article > .bbWrapper:has(.bbImageWrapper)')
