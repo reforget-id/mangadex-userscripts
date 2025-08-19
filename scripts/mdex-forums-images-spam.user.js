@@ -2,7 +2,7 @@
 // @name        MangaDex Forums : Hide Images Spam
 // @namespace   mdex-forums-images-spam
 // @description Hide images spam in Mangadex Forums
-// @version     1.0.2
+// @version     1.0.3
 // @author      reforget-id
 // @icon        https://mangadex.org/favicon.svg
 // @homepage    https://github.com/reforget-id/mangadex-userscripts
