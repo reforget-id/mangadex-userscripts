@@ -34,6 +34,7 @@
     // Only select `.bbImageWrapper` that are not inside nested quotes/spoilers
     const bbImageSelector = 'div.bbImageWrapper:not(:is(:scope blockquote, :scope .bbCodeSpoiler) .bbImageWrapper)'
 
+    // Only select posts that have images in them
     const posts = document.querySelectorAll('article > .bbWrapper:has(.bbImageWrapper)')
     if (posts.length === 0) return
 
